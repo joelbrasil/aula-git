@@ -1,0 +1,23 @@
+lista de comandos do GIT
+
+--Definir usuario e e-mail (só faz a primeira vez que usa o PC)
+git config --global user.name "Joel Aparecido Brasil"
+git config --global user.email jojau2008@gmail.com
+
+-- Cria uma pasta no terminal
+mkdir nome-da-pasta
+
+-- Entra na pasta criada
+cd nome-da-pasta
+
+-- Transforma a pasta em repositorio
+git init
+
+-- Ver status da pasta/repositorio
+git status
+
+-- Adiciona os arquivos para ser versionados 
+git add .
+
+troca o branch de master para main
+git branch -m master main
