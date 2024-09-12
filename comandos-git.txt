@@ -19,5 +19,8 @@ git status
 -- Adiciona os arquivos para ser versionados 
 git add .
 
-troca o branch de master para main
+-- Troca o branch de master para main
 git branch -m master main
+
+-- Envia as atualizações para o github
+git push
